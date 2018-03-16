@@ -1,0 +1,238 @@
+ *{
+	 margin: 0px;
+	 padding: 0px;
+ }
+ body{
+	 font-family:Raleway;
+
+ }
+ p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+
+}
+hr {
+height: 2px;
+background-color: #E65F82;
+
+
+
+}
+
+ .vh100 {
+ 	height: 100vh;
+ }
+/* Estilo al Header y barra de navegación*/
+header {
+	width: 100%;
+	height: 100vh;
+	background: url(../assets/images/flowers.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position:   center; */
+  z-index: 999px;
+
+}
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px 36px;
+	color:#ffff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+  z-index: 999;
+  text-decoration: none;
+}
+nav ul {
+	list-style: none;
+	background: rgba(0,0,0,0);
+	overflow: hidden;
+	color: #58387F;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+
+}
+
+nav.black ul {
+	background: #000;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #CF5575;
+	font-size:20px;
+  list-style: none;
+}
+.menu-icon {
+	width: 100%;
+	background: #000;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 15px 24px;
+	/* cursor: pointer; */
+	color:#fff;
+	display: none;
+}
+/* Icono de descenso */
+.more {
+  background-color: rgb(244, 244, 244);
+  color: ##E65F82;
+
+}
+
+/* Menú desplegable */
+@media(max-width:800px) {
+.logo {
+	position: fixed;
+	top: 0;
+  margin-top: 16px;
+	background:#000;
+}
+nav ul {
+	max-height: 0px;
+	background: #000;
+}
+nav.black ul {
+	background: #000;
+}
+.showing {
+	max-height: 20em;
+}
+nav ul li {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+.menu-icon{
+	display: block;
+}
+}
+/*--- SOBRE MI ----*/
+  #zule{
+  height: 300px;
+  border-radius: 30px;
+}
+
+.btn-cv {
+  /* background-color: #FD2CC5; */
+  border-radius: 5px;
+  margin-top: 5%;
+  color:#fff;
+
+ }
+.btn-cv-hover:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+/* SKILL-BAR */
+.skillbar {
+  font-family: 'Open Sans', 'sans-serif';
+  position:relative;
+  display:block;
+  margin-bottom:30px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+  font-weight:bold;
+  font-size:13px;
+  color:#fff;
+  background:#6adcfa;
+  width: 110px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:13px;
+  height:35px;
+  line-height:35px;
+  color:#444;
+  color:rgba(0, 0, 0, 0.4);
+}
+ /* PROYECTOS */
+ /*SECCION DE PROYECTOS WEB*/
+
+ .divFondo{
+  width: 93%;
+  height: 100%;
+  position:absolute;
+  bottom: 1px;
+  opacity: 0;
+  top:0px;
+  padding: 10%;
+  transition-duration: 1s;
+
+}
+.divFondo h3{
+  font-size: 2em;
+}
+.divFondo p{
+  font-size: 1em;
+  color: #fff;
+}
+.divFondo:hover{
+  opacity: 1;
+  transition-duration: 1s;
+  background-color: rgba(31, 15, 50, 0.80);
+}
