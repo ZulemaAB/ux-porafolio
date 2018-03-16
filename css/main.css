@@ -239,12 +239,8 @@ nav ul li {
 /* REDES SOCIALES */
 .redes{
   font-size: 0.9em;
-  padding-top: 1%;
+  /* padding-top: 1%; */
   list-style: none;
   display: inline-block;
   margin: 20px;
-}
-/* copyright */
-.copyright{
-  background-color: #000;
 }
