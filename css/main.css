@@ -236,3 +236,15 @@ nav ul li {
   transition-duration: 1s;
   background-color: rgba(31, 15, 50, 0.80);
 }
+/* REDES SOCIALES */
+.redes{
+  font-size: 0.9em;
+  padding-top: 1%;
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+/* copyright */
+.copyright{
+  background-color: #000;
+}
