@@ -26,7 +26,7 @@ background-color: #E65F82;
 header {
 	width: 100%;
 	height: 100vh;
-	background: url(../assets/images/flowers.jpeg) ;
+	background: url(../assets/images/flowers-min.jpeg) ;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position:   center; */
@@ -212,18 +212,10 @@ nav ul li {
 }
  /* PROYECTOS */
  /*SECCION DE PROYECTOS WEB*/
-
- .divFondo{
-  width: 93%;
-  height: 100%;
-  position:absolute;
-  bottom: 1px;
-  opacity: 0;
-  top:0px;
-  padding: 10%;
-  transition-duration: 1s;
-
-}
+.proyect{
+  background:#E488A1;
+  border: #ffff;
+  }
 .divFondo h3{
   font-size: 2em;
 }
@@ -231,11 +223,7 @@ nav ul li {
   font-size: 1em;
   color: #fff;
 }
-.divFondo:hover{
-  opacity: 1;
-  transition-duration: 1s;
-  background-color: rgba(31, 15, 50, 0.80);
-}
+
 /* REDES SOCIALES */
 .redes{
   font-size: 0.9em;
