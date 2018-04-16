@@ -2,20 +2,36 @@
 .intro {
 	padding-top: 200px;
   padding-left:  20px;
-	background: #;
+	/* background: #ffff; */
 }
 .text {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 500;
 	font-weight: bold;
+}
+.text1{
+	font-size: 5em;
+	font-weight: 500;
+	font-weight: bold;
+}
+.text3 {
+	letter-spacing: 1.2px;
+	font-size: 25px;
+}
+.text4 {
+	letter-spacing: 1px;
+	font-size: 30px;
 }
 
 /* Margin */
 .mt {
-  margin-top: 100px;
+  padding-top:  100px;
 }
 .mt-1 {
-  margin-top: 50px;
+  padding-top: 50px;
+}
+.mt-2 {
+  padding-top: 20px;
 }
 .mt-2 {
 	margin: 5%;
@@ -71,4 +87,7 @@
 }
 .bg-blue{
 	background-color:  #00022F;
+}
+.bg-white {
+	background-color: #ffff;
 }

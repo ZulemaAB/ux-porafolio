@@ -120,8 +120,8 @@ nav ul li {
 }
 /*--- SOBRE MI ----*/
   #zule{
-  height: 300px;
-  border-radius: 30px;
+  width: 300px;
+  border-radius: 200px;
 }
 
 .btn-cv {
@@ -136,96 +136,33 @@ nav ul li {
   text-decoration: none;
 }
 
-/* SKILL-BAR */
-.skillbar {
-  font-family: 'Open Sans', 'sans-serif';
-  position:relative;
-  display:block;
-  margin-bottom:30px;
-  width:100%;
-  background:#eee;
-  height:35px;
-  border-radius:3px;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  -webkit-transition:0.4s linear;
-  -moz-transition:0.4s linear;
-  -ms-transition:0.4s linear;
-  -o-transition:0.4s linear;
-  transition:0.4s linear;
-  -webkit-transition-property:width, background-color;
-  -moz-transition-property:width, background-color;
-  -ms-transition-property:width, background-color;
-  -o-transition-property:width, background-color;
-  transition-property:width, background-color;
+.bg{
+  background: url(../assets/images/figure.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: inherit;
+  opacity: 10;
 }
 
-.skillbar-title {
-  position:absolute;
-  top:0;
-  left:0;
-  font-weight:bold;
-  font-size:13px;
-  color:#fff;
-  background:#6adcfa;
-  width: 110px;
-  -webkit-border-top-left-radius:3px;
-  -webkit-border-bottom-left-radius:4px;
-  -moz-border-radius-topleft:3px;
-  -moz-border-radius-bottomleft:3px;
-  border-top-left-radius:3px;
-  border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-  display:block;
-  background:rgba(0, 0, 0, 0.1);
-  padding:0 20px;
-  height:35px;
-  line-height:35px;
-  -webkit-border-top-left-radius:3px;
-  -webkit-border-bottom-left-radius:3px;
-  -moz-border-radius-topleft:3px;
-  -moz-border-radius-bottomleft:3px;
-  border-top-left-radius:3px;
-  border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-  height:35px;
-  width:0px;
-  background:#6adcfa;
-  border-radius:3px;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-  position:absolute;
-  right:10px;
-  top:0;
-  font-size:13px;
-  height:35px;
-  line-height:35px;
-  color:#444;
-  color:rgba(0, 0, 0, 0.4);
-}
  /* PROYECTOS */
  /*SECCION DE PROYECTOS WEB*/
 .proyect{
   background:#E488A1;
   border: #ffff;
   }
-.divFondo h3{
-  font-size: 2em;
+
+.description {
+  height: 300px;
 }
-.divFondo p{
-  font-size: 1em;
-  color: #fff;
+.easybus {
+  padding-left: 100px;
+  /* padding-top: 80px; */
 }
 
 /* REDES SOCIALES */
-.redes{
+.redes {
   font-size: 0.9em;
   /* padding-top: 1%; */
   list-style: none;
